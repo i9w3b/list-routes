@@ -1,6 +1,8 @@
 {
     "name": "i9w3b/list-routes",
     "description": "Visualizar Rotas Laravel",
+    "homepage": "https://github.com/i9w3b/list-routes",
+    "license": "MIT",
     "authors": [{
         "name": "Marcelo Sena",
         "email": "marcelosenaonline@gmail.com"
