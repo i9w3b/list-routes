@@ -1,0 +1,30 @@
+{
+    "name": "i9w3b/list-routes",
+    "description": "Visualizar Rotas Laravel",
+    "authors": [{
+        "name": "Marcelo Sena",
+        "email": "marcelosenaonline@gmail.com"
+    }],
+    "require": {
+        "php": "^7.2.5"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "I9w3b\\ListRoutes\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "I9w3b\\ListRoutes\\ListRoutesServiceProvider"
+            ]
+        }
+    },
+    "scripts": {},
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
