@@ -20,10 +20,19 @@ Execute o seguinte comando:
 composer require i9w3b/list-routes --dev
 ```
 
-Por padrão, o pacote cria uma rota em /routes. Se você deseja configurar isso, execute o seguinte comando:
+Por padrão, o pacote cria uma rota em /routes, e deve ser ativada. Para configurar isso, execute o seguinte comando:
 
 ```bash
 php artisan vendor:publish --provider="I9w3b\ListRoutes\ListRoutesServiceProvider"
+```
+
+```bash
+    /*
+    |--------------------------------------------------------------------------
+    | Publicar rotas
+    |--------------------------------------------------------------------------
+    */
+    'routes_show' => true,
 ```
 
 ## Segurança
@@ -33,3 +42,4 @@ Caso descubra algum problema relacionado à segurança, envie um e-mail para `ma
 ## Licença
 
 [MIT](https://github.com/i9w3b/list-routes/blob/master/LICENSE.md) © [i9W3b](https://github.com/i9w3b) | Consulte [LICENSE.md](https://github.com/i9w3b/list-routes/blob/master/LICENSE.md) para obter mais informações.
+
